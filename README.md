@@ -1,4 +1,4 @@
-# Scraping-projects-in-Python
+# TrustpilotScraper
 Different scripts for scraping; currently holds one for Trustpilot and Boligportalen.
 
 ## Trustpilot script
@@ -6,11 +6,3 @@ Scrapes the Trustpilot site (in this case, the company AURA Energi) for all revi
 
 ### Prerequisites
 Install the Python package bs4 with `python3.8 -m pip install -r trustpilotRequirements.txt`.
-
-## Boligportalen script
-Scrapes the BoligPortal site for the newest apartment entries and plays a sound when a new apartment below a given price point is found.
-
-### Prerequisites 
-Install the Python packages with `python3.8 -m pip install -r boligportalRequirements.txt`.
-
-You need the Selenium WebDriver to run the program since it loads content with JS. There are many ways to install this, but I used `npm install phantomjs`. 
